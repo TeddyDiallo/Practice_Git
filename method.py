@@ -3,3 +3,9 @@ def sum_list(mylist):
     for i in mylist:
         sum += i
     return sum 
+
+def product_list(mylist):
+    product = 1
+    for i in mylist:
+        product *= i
+    return product 
