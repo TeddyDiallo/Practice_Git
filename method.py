@@ -9,3 +9,11 @@ def product_list(mylist):
     for i in mylist:
         product *= i
     return product 
+
+def reverse_list(mylist):
+    result = []
+    j = -1
+    for i in range(len(mylist)):
+        result.append(mylist[j])
+        j -=1
+    return result
